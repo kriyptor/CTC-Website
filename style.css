@@ -16,7 +16,7 @@
   .jumbotron-background {
     object-fit:cover;
     font-family: 'object-fit: cover;';
-    position:absolute;
+    position: absolute;
     top:0;
     z-index:1;
     width:100%;
@@ -36,13 +36,50 @@
     box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
     border-radius: 0.15rem;
 }
+.btn{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*text inside jumbotron*/
+.display-4{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.lead{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+}
+.my-3{
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+/*info cards*/
+.card-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: large;
+}
+.card-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+
+}
+ .card-img-top{
+  
+  width: 100%;
+  background-color: rgb(70, 65, 65);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
 /* Tabs Card */
 .tab-card {
   border:1px solid #eee;
 }
 
 .tab-card-header {
-  background:none;
+  background: none;
 }
 /* Default mode */
 .tab-card-header > .nav-tabs {
@@ -56,7 +93,7 @@
   border: 0;
   border-bottom:2px solid transparent;
   margin-right: 0;
-  color: #737373;
+  color: black;
   padding: 2px 15px;
 }
 
@@ -83,11 +120,13 @@ span{
 .box-part{
     background:#FFF;
     border-radius:0;
-    padding:60px 10px;
+    padding:40px 10px;
     margin:30px 0px;
 }
 .text{
     margin:20px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -102,7 +141,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #1f1f2e !important;
+    background: #2d2d33 !important;
 }
 #footer h5{
 	padding-left: 10px;
